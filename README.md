@@ -23,8 +23,11 @@ Once Claude Code is open in this folder, **restart it** (commands load on startu
 /cca-start
 ```
 
-That's it. There's nothing to `pip install` — the whole thing is Markdown.
-
+If you want to merge the coach into your existing project. Copy the command files and materials into your project own `/claude`:
+```
+cp cca_coach/.claude/commands/* my_analytics_project/.claude/commands/
+cp cca_coach/cca-coach-material.md my_analytics_project/
+```
 ---
 
 ## Commands
