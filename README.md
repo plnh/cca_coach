@@ -1,26 +1,22 @@
 # CCA Architect Coach
 
-An interactive study coach for the **Claude Certified Architect — Foundations
-(CCA-F)** exam, run entirely inside Claude Code. No install, no dependencies —
-just a folder of Markdown files that turns Claude Code into a tutor.
+A folder of Markdown files that turns Claude Code into a study coach for the **Claude Certified Architect — Foundations
+(CCA-F)** exam, run entirely inside Claude Code. .
 
 Teaches the full curriculum, runs exam-style quizzes, and tracks your progress.
 
 ---
 
-## Setup (2 minutes)
+## Setup
 
-You need [Claude Code](https://docs.claude.com/en/docs/claude-code/overview)
-installed. Then:
+You need [Claude Code](https://docs.claude.com/en/docs/claude-code/overview) installed. Then:
 
 ```bash
-git clone https://github.com/your-company/cca-coach.git
 cd cca-coach
 claude
 ```
 
-Once Claude Code is open in this folder, **restart it** (commands load on
-startup), then type `/` to see the coaching commands. Start with:
+Once Claude Code is open in this folder, **restart it** (commands load on startup), then type `/` to see the coaching commands. Start with:
 
 ```
 /cca-start
@@ -42,8 +38,7 @@ That's it. There's nothing to `pip install` — the whole thing is Markdown.
 | `/cca-glossary` | Defines a term in plain language | `/cca-glossary stop_reason` |
 | `/cca-progress` | Shows what you've completed and your quiz scores | `/cca-progress` |
 
-If a command doesn't show up when you type `/`, restart Claude Code — commands
-are only loaded at startup.
+If a command doesn't show up when you type `/`, restart Claude Code — commands are only loaded at startup.
 
 ---
 
@@ -95,23 +90,3 @@ the file is the instruction Claude follows when the command runs.
 After any change, push it and your teammates get it on their next `git pull`.
 
 ---
-
-## Your progress stays private
-
-Each person's `progress.md` is generated on their own machine and is excluded
-from git (see `.gitignore`), so your scores never end up in the shared repo or
-clash with a teammate's. The shared repo holds only the curriculum and commands.
-
----
-
-## Honest notes
-
-- Quiz questions are **original study aids**, not real exam questions — they
-  mirror the exam's style (scenario-based, single best answer).
-- Exam logistics (fee, question count, access) may change. Confirm current
-  details on Anthropic's official Skilljar / partners page before booking.
-- Technical details are accurate to Anthropic's documented behaviour as of
-  early 2026; confirm exact parameter names in the official docs
-  ([platform.claude.com/docs](https://platform.claude.com/docs),
-  [code.claude.com/docs](https://code.claude.com/docs)) before relying on them.
-- This is an independent study aid, not affiliated with or endorsed by Anthropic.
