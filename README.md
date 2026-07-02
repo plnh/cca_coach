@@ -27,7 +27,7 @@ If you want to merge the coach into your existing project. Copy the command file
 cp cca_coach/.claude/commands/* my_analytics_project/.claude/commands/
 cp cca_coach/cca-coach-material.md my_analytics_project/
 ```
-If your existing project own's `CLAUDE.md' , you have to decide (or ask Claude) how to merge its contents with the coaching rules in this repo's  `CLAUDE.md'.
+If your existing project have its own `CLAUDE.md` , you have to decide (or ask Claude) how to merge its contents with the coaching rules in this repo's  `CLAUDE.md'.
 It's recommended to merge the coach plugins with only projects for training. 
 
 
