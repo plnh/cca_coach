@@ -12,6 +12,7 @@ Teaches the full curriculum, runs exam-style quizzes, and tracks your progress.
 You need [Claude Code](https://docs.claude.com/en/docs/claude-code/overview) installed. Then:
 
 ```bash
+git clone https://github.com/plnh/cca_coach.git
 cd cca-coach
 claude
 ```
