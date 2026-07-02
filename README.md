@@ -5,7 +5,6 @@ A folder of Markdown files that turns Claude Code into a study coach for the **C
 
 Teaches the full curriculum, runs exam-style quizzes, and tracks your progress.
 
----
 
 ## Setup
 
@@ -31,7 +30,6 @@ cp cca_coach/cca-coach-material.md my_analytics_project/
 If your existing project own's `CLAUDE.md' , you have to decide (or ask Claude) how to merge its contents with the coaching rules in this repo's  `CLAUDE.md'.
 It's recommended to merge the coach plugins with only projects for training. 
 
----
 
 ## Commands
 
@@ -47,7 +45,7 @@ It's recommended to merge the coach plugins with only projects for training.
 
 If a command doesn't show up when you type `/`, restart Claude Code — commands are only loaded at startup.
 
----
+
 
 ## What's covered
 
@@ -62,7 +60,7 @@ If a command doesn't show up when you type `/`, restart Claude Code — commands
 
 Code examples throughout use **Python** — no other languages required.
 
----
+
 
 ## How it's built (for anyone who wants to edit it)
 
